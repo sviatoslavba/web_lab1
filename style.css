@@ -23,6 +23,7 @@ body {
   justify-content: space-between;
   background-color: #3d8af5;
   width: 100%;
+  min-width: 800px;
   height: 25px;
 }
 .logoline {
@@ -107,15 +108,17 @@ a {
   margin-left: 7px;
 }
 .menu-buttons {
-  width: 45%;
   padding: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
+  width: 20%;
+  min-width: 220px;
 }
 .div-button {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 .fi {
   background-color: #485f9f;
@@ -148,6 +151,7 @@ button {
   height: 60px;
   width: 220px;
   transition: background-color 0.3s ease;
+  max-width: 100%;
 }
 button:hover {
   background-color: #1564a4;
@@ -156,17 +160,21 @@ button:hover {
   display: flex;
   margin-left: 13%;
   margin-right: 11%;
+  justify-content: space-between;
 }
 .center_box_3456 {
   display: flex;
   flex-direction: column;
+  width: 80%;
 }
 .center_box_345 {
   display: flex;
+  width: 100%;
 }
 .center_box {
-  width: 700px;
+  width: 65%;
   padding: 20px;
+  align-items: left;
 }
 #center_box-header {
   color: rgb(10, 10, 154);
@@ -176,6 +184,7 @@ button:hover {
   text-align: left;
 }
 #center_box-header-hr {
+  width: 100%;
   background-color: #1564a4;
   height: 1px;
   border: none;
@@ -183,7 +192,7 @@ button:hover {
 .div-news {
   text-align: left;
   padding-top: 25px;
-  width: 100%;
+  max-width: 100%;
 }
 .news-h3 {
   color: hsl(215, 93%, 58%);
@@ -198,9 +207,11 @@ button:hover {
   margin-top: 10px;
   color: rgb(37, 37, 37);
   font-size: 15px;
+  max-width: 100%;
 }
 .select-div {
   padding-top: 20px;
+  align-items: left;
 }
 select {
   background-color: #ecebeb;
@@ -214,7 +225,7 @@ select {
 .center_box_45 {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 35%;
   padding-top: 20px;
 }
 .p-4 {
@@ -235,8 +246,8 @@ select {
   text-align: left;
 }
 .iframe-map {
-  width: 300px;
-  height: 220px;
+  max-width: 50%;
+  max-height: 220px;
   border-color: rgb(89, 111, 255);
   border-radius: 1px solid;
 }
@@ -248,7 +259,7 @@ select {
   padding-left: 20px;
 }
 .div-bottom {
-  height: 180px;
+  max-height: 180px;
   padding: 20px;
 }
 .div-media {
